@@ -1,0 +1,151 @@
+.landing-container{
+    display: flex;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    align-items: center;
+}
+
+.landing-container .content-div{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.landing-container .square{
+    z-index: 1;
+    position: absolute;
+    top: 15%;
+    border: 3px solid #FFF2D8;
+    height: 120px;
+    width: 120px;
+    
+}
+
+.landing-container .circle{
+    z-index: 1;
+    border-radius: 50%;
+    background-color: #FFF2D8;
+    top: 65%;
+    left: 39%;
+    position: absolute;
+    border: 5px solid #FFF2D8;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.landing-container .text-div{
+    z-index: 4;
+    width: 40%;
+    background-color: #FFF;
+    font-family: 'Andika', sans-serif;
+    padding: 5rem;
+    left: 0;
+    position: relative;
+}
+
+
+
+.landing-container .img-div{
+    position: absolute;
+    height: inherit;
+    right: 0;
+    z-index: 0;
+}
+
+.green{
+    color: #445D48;
+}
+
+
+.landing-container .text-div h1{
+    font-size: 2.5rem;
+}
+
+.landing-container .text-div p{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.landing-container .img-div img{
+    height: 100%;
+    width: auto;
+}
+
+
+@media screen and (max-width: 1400px){
+    .landing-container .text-div{
+        z-index: 1;
+        width: 50%;
+    }
+
+    .landing-container .text-div h1{
+        font-size: 1.5rem;
+    }
+    
+    .landing-container .text-div p{
+        font-size: 1rem;
+    }
+
+    .landing-container .square{
+        top: 20%;
+        height: 70px;
+        width: 70px;
+        
+    }
+
+    .landing-container .circle{
+        top: 60%;
+        left: 69%;
+        
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .landing-container .img-div{
+        display: none;
+    }
+
+    .landing-container .content-div{
+        height: 100%;
+        width: 100%;
+        background-image: url('../assets/landing-img.png');
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landing-container .text-div{
+        position: absolute;
+        left:auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 1rem 2rem;
+    }
+
+    .landing-container .square, .landing-container .circle{
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 450px){
+    .landing-container .text-div h1{
+        font-size: 1.5rem;
+    }
+    
+    .landing-container .text-div p{
+        font-size: 1rem;
+    }
+}

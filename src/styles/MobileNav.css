@@ -1,0 +1,39 @@
+
+.mobile-nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mobile-nav ul{
+    position: fixed;
+    padding-left: 0px;
+    margin: -16px;
+    right: 0;
+    bottom: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 3rem;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+
+.mobile-nav ul li{
+    border-bottom: 1px dashed #000;
+    padding: 2em 4em;
+}
+
+.mobile-nav button{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .mobile-nav{
+        display: none;
+    }
+}
+
+

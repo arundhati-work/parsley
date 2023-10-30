@@ -1,0 +1,14 @@
+.desktop-nav ul{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    list-style: none;
+}
+
+
+@media screen and (max-width: 1024px){
+    .desktop-nav ul{
+        display: none;
+    }
+}

@@ -1,0 +1,21 @@
+.products-container{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 1024px){
+    .products-container ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

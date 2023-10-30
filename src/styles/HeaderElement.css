@@ -1,0 +1,25 @@
+
+
+.header-container{
+    margin: 50px 0;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    font-family: 'Andika', sans-serif;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px){
+
+    .logo-img{
+        width: 70%;
+        height: auto;
+    }
+    .header-container{
+        margin-top: 0;
+        padding: 2rem 0 1rem 0;
+    }
+}
+
