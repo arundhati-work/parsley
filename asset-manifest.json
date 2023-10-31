@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/parsley/static/css/main.71bf69fe.css",
+    "main.js": "/parsley/static/js/main.b9cf408d.js",
+    "static/js/787.4a6be711.chunk.js": "/parsley/static/js/787.4a6be711.chunk.js",
+    "static/media/sofa.png": "/parsley/static/media/sofa.2671e6890fbcdf6d8721.png",
+    "static/media/landing-img.png": "/parsley/static/media/landing-img.b5d45415f83667706130.png",
+    "static/media/table.png": "/parsley/static/media/table.665dfe62dc42fd015ee1.png",
+    "static/media/wallUnit.png": "/parsley/static/media/wallUnit.115d59f7fb169688710e.png",
+    "static/media/bed.png": "/parsley/static/media/bed.78d86651aadcc23c84f2.png",
+    "static/media/desk.png": "/parsley/static/media/desk.b1fae84228a71bd70a8e.png",
+    "static/media/cabinet.png": "/parsley/static/media/cabinet.307a80dcedeb250c5d58.png",
+    "static/media/style.png": "/parsley/static/media/style.3f6ed13fe9e0ee0eca15.png",
+    "static/media/comfort.png": "/parsley/static/media/comfort.beb9dc5fa9010f3262d9.png",
+    "static/media/quality.png": "/parsley/static/media/quality.c5d9a0e12deac8ae939a.png",
+    "index.html": "/parsley/index.html",
+    "main.71bf69fe.css.map": "/parsley/static/css/main.71bf69fe.css.map",
+    "main.b9cf408d.js.map": "/parsley/static/js/main.b9cf408d.js.map",
+    "787.4a6be711.chunk.js.map": "/parsley/static/js/787.4a6be711.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71bf69fe.css",
+    "static/js/main.b9cf408d.js"
+  ]
+}
