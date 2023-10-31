@@ -31,7 +31,6 @@ const mottos = [
 export default function Motto() {
   return (
     <div>
-      <HeaderElement/>
       <div className='motto-container'>
         <div className='inner-container'>
           <div className='header'>
@@ -49,7 +48,6 @@ export default function Motto() {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   )
 }

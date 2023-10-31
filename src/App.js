@@ -3,7 +3,7 @@ import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 import Home from './routes/Home';
 import OurProducts from './routes/OurProducts';
-import Motto from './routes/Motto';
+import Motto from './routes/OurMotto';
 import Product from './routes/Product';
 
 function App() {

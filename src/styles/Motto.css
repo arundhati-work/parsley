@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
+    padding-bottom: 7rem;
 }
 
 .motto-container .inner-container{
