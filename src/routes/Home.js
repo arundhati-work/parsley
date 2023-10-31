@@ -8,6 +8,7 @@ export default function Home() {
     <div>
       <HeaderElement/>
       <LandingPage/>
+      <AllProducts/>
     </div>
   )
 }

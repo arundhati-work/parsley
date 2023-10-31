@@ -27,7 +27,7 @@ export default function NavLinks(props) {
                 <NavLink to='/motto' className='link'>Our Motto</NavLink>
             </li>
             <li onClick={closeMenu}>
-                <NavLink to='/contact' className='link green'>Contact Us</NavLink>
+                <NavLink to='mailto:arundhatib.work@gmail.com' className='link green'>Contact Us</NavLink>
             </li>
         </ul>
     </div>

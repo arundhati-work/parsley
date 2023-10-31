@@ -1,0 +1,29 @@
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #445D48;
+}
+
+.footer-container .inner-container{
+    color: #FFF;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 5rem;
+    padding: 5rem 0;
+}
+
+.footer-container .inner-container h1{
+    font-family: 'Andika', sans-serif;
+}
+
+.footer-container .inner-container p{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.3rem;
+}
+
+.footer-container .inner-container a{
+    text-decoration: none;
+    color: #FFF;
+}

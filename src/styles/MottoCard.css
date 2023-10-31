@@ -1,0 +1,19 @@
+
+.motto-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #EAD7BB;
+    width: 15rem;
+    font-family: 'Arsenal', sans-serif;
+    margin: 2rem;
+}
+
+.motto-card-container .card-content-container{
+    text-align: center;
+}
+
+.motto-card-container .card-img-container img{
+    width: 100%;
+}
