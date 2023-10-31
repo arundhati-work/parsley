@@ -16,14 +16,25 @@
 
 .footer-container .inner-container h1{
     font-family: 'Andika', sans-serif;
+    font-size: 1.3rem;
 }
 
 .footer-container .inner-container p{
     font-family: 'Arsenal', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .footer-container .inner-container a{
     text-decoration: none;
     color: #FFF;
+}
+
+@media screen and (max-width: 1024px){
+    .footer-container .inner-container h1{
+        font-size: 1rem;
+    }
+
+    .footer-container .inner-container p{
+        font-size: 0.7rem;
+    }
 }
